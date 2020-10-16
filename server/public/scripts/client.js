@@ -22,9 +22,9 @@ function getPaths(){
                     <td>${response[i].instrument}</td>
                     <td>${response[i].microphone}</td>
                     <td>${response[i].tieline}</td>
-                    <td>${response[i].outboardGear}</td>
+                    <td>${response[i].outboard_gear}</td>
                     <td>${response[i].preamp}</td>
-                    <td>${response[i].dawInput}</td>
+                    <td>${response[i].daw_input}</td>
                 </tr>
             `)
             
