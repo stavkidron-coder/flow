@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./vendors/jquery.js"></script>
+    <script src="./scripts/client.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <title>Signal Flow</title>
+</head>
+<body>
+
+    <h1>Signal Flow Tracker</h1>
+
+    <h2>Insert new input:</h2>
+
+    <div id="form">
+        <input type="text" placeholder="Instrument" id="instrumentInput">
+        <input type="text" placeholder="Microphone" id="microphoneInput">
+        <input type="text" placeholder="Tieline" id="tielineInput">
+        <input type="text" placeholder="Outboard Gear" id="outbordGearInput">
+        <input type="text" placeholder="Preamp" id="preampInput">
+        <input type="text" placeholder="DAW Input" id="dawInput">
+        <button id="submit">Add Path</button>
+    </div>
+
+    <table>
+        <thead>
+            <th>Instrument</th>
+            <th>Microphone</th>
+            <th>Tieline</th>
+            <th>Outboard Gear</th>
+            <th>Preamp</th>
+            <th>DAW Input</th>
+        </thead>
+        <tbody id="output"></tbody>
+    </table>
+    
+</body>
+</html>
